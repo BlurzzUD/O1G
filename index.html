@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O1G Tisza 2026</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ff4e50, #f9d423);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        h1, h2 {
+            margin: 0.5rem;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 8rem;
+            animation: pulse 2s infinite;
+        }
+
+        h2 {
+            font-size: 4rem;
+            animation: fadeIn 3s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>O1G</h1>
+    <h2>Tisza 2026</h2>
+</body>
+</html>
